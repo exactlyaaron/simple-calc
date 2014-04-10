@@ -1,10 +1,10 @@
-# client-template
+# simple jQuery calculator
 
-Serves as a template for client JavaScript applications.
+jQuery class practice
 
 It uses:
 * Jade
 * Less
 * Grunt
 * JSHint
-* Node.js
+* jQuery
