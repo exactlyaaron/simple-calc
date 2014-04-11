@@ -2,10 +2,30 @@ doctype html
 html(lang='en')
   head
     meta(charset='utf-8')
-    title Client Template
+    title SimpleCalc
     link(rel='stylesheet', href='/css/app.css')
   body
-    h1 Client Template
+    h1 SimpleCalc
+
+    input#num1(type='text' placeholder="first number")
+    input#num2(type='text' placeholder="second number")
+
+
+    #buttons
+      button#add +
+      button#sub -
+      button#mult *
+      button#div /
+      button#exp X&#8319
+      button#root &#x221a;
+      button#factorial !
+
+    span#equals =
+    #result
+
+    br
+
+    p(style="text-align:center") *** for factorial just enter the first number ***
 
     script(src='/js/vendor/jquery-2.1.0.js')
     script(src='/js/source/main.js')
